@@ -19,10 +19,10 @@ L = len(my_list) - 1
 for i in range(L):
     if i != L-i and i < L-i:
         my_list_new.append(my_list[i] * my_list[L-i])
-    elif i == L-i and i > L-i:
-        my_list_new.append(my_list[i] * my_list[i])
+    elif (L+1)%2: 
+        my_list_new.append(my_list[i])
         break
-
+if L == 0: my_list_new.append(my_list[0])
 print('Получили список c произведением пар чисел: ')
 print(my_list_new)
 
