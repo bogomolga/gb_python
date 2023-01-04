@@ -15,17 +15,17 @@ else:
     print('Получили список: ')
     print(my_list)
 
-    temp_list=my_list
+    temp_list = my_list
 
     for i in range(len(my_list)):
         rnd = random.randint(0, n-1)
-        #print('rnd= ', rnd)
+        # print('rnd= ', rnd)
 
         for j in range(len(my_list)):
-            tmp_index=temp_list.index(rnd)
-            tmp_item=temp_list[0]
-            temp_list[0]=temp_list[tmp_index]
-            temp_list[tmp_index]=tmp_item
+            tmp_index = temp_list.index(rnd)
+            tmp_item = temp_list[0]
+            temp_list[0] = temp_list[tmp_index]
+            temp_list[tmp_index] = tmp_item
 
     print('Получили список 2: ')
     print(temp_list)
