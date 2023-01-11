@@ -180,9 +180,9 @@ print(numbers) # [10, 2, 3, 4, 5]
 numbers.append(777) # добавить в конец
 print('numbers : ', numbers) 
 print(numbers == ['red', 'green', 'blue', '777']) # False
-numbers.remove(2) #del numbers[0] # удалить элемент
+numbers.remove(2) 
 print('numbers : ', numbers)  
-del numbers[0]
+del numbers[0] #del numbers[0] # удалить элемент
 print('numbers : ', numbers) 
 
 #ФУНКЦИИ
@@ -203,3 +203,5 @@ arg = 2.3  # <class 'int'>
 #arg = 2  # <class 'NoneType'>
 print(f(arg))  # вызов функции f
 print(type(f(arg))) # тип значения, которое возвращает функция f
+
+
