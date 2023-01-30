@@ -41,3 +41,16 @@ print("count2 = ", count2) # Сумма четных элементов в сп�
 new_list = [my_list2[i] for i in range(len(my_list2)) if i%2] # Запись четных элементов в новый список
     #new_list = [my_list[i] for i in range(1, len(my_list), 2)] # можно так
 print("new_list: ", new_list, sum(new_list)) # new_list:  [3, 9] 12
+
+
+# фильтрация символов в строке
+enter_list = input("Введите числа через пробел: ").split() # по пробелам разобьет строку на элементы списка    
+right_list = []
+for i in range(len(enter_list)):
+	enter_list[i] = enter_list[i].strip(".!,;-")
+	if enter_list[i].isdigit:
+	    right_list.append(enter_list[i])
+print(right_list)
+
+splited = map(str,right_list)
+print("splited: ", splited) # -> splited:  <map object at 0x00000264B56A3DF0>
