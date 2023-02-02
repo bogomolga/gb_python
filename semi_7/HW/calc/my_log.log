@@ -189,3 +189,30 @@
 01-02-2023 02:54:46 - user_interface - INFO - menu_calc1 - div (/) selected
 01-02-2023 02:54:48 - mod_calc - INFO - div - div (/): 0.0 / 4.0 = 0.0
 01-02-2023 02:54:48 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:09:14 - main - INFO - <module> - Start program
+02-02-2023 19:09:18 - user_interface - INFO - menu - Start program
+02-02-2023 19:09:18 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:09:21 - user_interface - INFO - menu_calc1 - div (/) selected
+02-02-2023 19:09:24 - mod_calc - INFO - div - div (/): 4.0 / 5.0 = 0.8
+02-02-2023 19:09:24 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:09:27 - user_interface - INFO - menu - Stop program
+02-02-2023 19:09:27 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:09:33 - user_interface - INFO - menu - Stop program
+02-02-2023 19:09:33 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:31:39 - user_interface - INFO - menu_calc1 - Incorrect menu selection
+02-02-2023 19:31:39 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:31:39 - user_interface - INFO - menu_calc1 - Incorrect menu selection
+02-02-2023 19:31:39 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:31:47 - main - INFO - <module> - Start program
+02-02-2023 19:31:49 - user_interface - INFO - menu - Start program
+02-02-2023 19:31:49 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:31:53 - user_interface - INFO - menu_calc1 - Incorrect menu selection
+02-02-2023 19:31:53 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:31:59 - user_interface - INFO - menu_calc1 - Incorrect menu selection
+02-02-2023 19:31:59 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:32:13 - user_interface - INFO - menu - Stop program
+02-02-2023 19:32:13 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:35:47 - main - INFO - <module> - Start program
+02-02-2023 19:35:49 - user_interface - INFO - menu - Start program
+02-02-2023 19:35:49 - user_interface - INFO - menu_calc1 - Rational numbers are selected
+02-02-2023 19:35:53 - user_interface - INFO - menu - Stop program

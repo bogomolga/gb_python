@@ -16,13 +16,16 @@ def menu():
                 menu_calc2(item)
             case "3":
                 logging.info('Stop program')
-                break #не срабатывает почему-то после возвращения из вложенного меню
+                print('By, by!')
+                break #не срабатывает почему-то после возвращения из вложенного меню (Рекурсию надо убрать. menu())
             case _:
                 logging.error('Incorrect menu selection')
                 print('Incorrect menu selection')
 
 
 def menu_calc1(item):
+    a, b = 0, 0
+    
     while True:
         if item == "1":
             logging.info("Rational numbers are selected")
@@ -65,7 +68,7 @@ def menu_calc1(item):
                     check_zero_div(a, b, 3)
                     #print(f"result = {div_os(a, b)}")
                 case "7":
-                    menu()
+                    break #menu()
                 case _:
                     logging.info("Incorrect menu selection")
                     print("Incorrect menu selection")
@@ -100,7 +103,7 @@ def menu_calc2(item):
                     check_zero_div(a, b, 1)
                     #print(f"result = {div(a, b)}")
                 case "5":
-                    menu()
+                    break #menu()
                 case _:
                     logging.info("Incorrect menu selection")
                     print("Incorrect menu selection")
