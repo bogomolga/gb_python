@@ -1,0 +1,5 @@
+Ссылка на pull request (ветка lesson 2)
+https://github.com/bogomolga/gb_python/pull/1
+
+Ссылка на ДЗ 2:
+https://github.com/bogomolga/gb_python/tree/lesson_2/semi_2/HW
